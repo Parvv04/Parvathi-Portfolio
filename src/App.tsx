@@ -1,0 +1,146 @@
+import './App.css'
+
+function App() {
+  return (
+    <div className="portfolio-root">
+      <header className="portfolio-header">
+        <h1>Parvathi Pratap H</h1>
+        <h2 className="portfolio-title">Aspiring Full Stack Developer | Computer Science Undergrad</h2>
+        <div style={{ marginTop: '1rem', fontSize: '1rem', color: '#a1a1aa' }}>
+          <span>Bangalore, Karnataka</span> <br />
+          <a href="mailto:parvathi.pratap.h@gmail.com">parvathi.pratap.h@gmail.com</a> | <a href="https://github.com/Parvv04" target="_blank" rel="noopener noreferrer">github.com/Parvv04</a> <br />
+          <span>8296059659</span>
+        </div>
+      </header>
+      <main>
+        <section id="about" className="portfolio-section">
+          <h3>About</h3>
+          <p>
+            Curious and impact-driven Computer Science undergrad aiming to become a skilled Full Stack Developer. I thrive on solving real-world problems through code and enjoy building meaningful, user-focused applications. Eager to work on innovative tech projects that challenge my thinking, accelerate my growth, and contribute to something bigger than myself.
+          </p>
+        </section>
+        <section id="skills" className="portfolio-section">
+          <h3>Skills</h3>
+          <ul className="skills-list">
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>RESTful APIs</li>
+            <li>Flask</li>
+            <li>Torch</li>
+            <li>TensorFlow</li>
+            <li>Keras</li>
+            <li>OpenCV</li>
+            <li>Hugging Face</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Gmail API</li>
+            <li>Google Cloud Console</li>
+            <li>venv</li>
+            <li>pip</li>
+            <li>npm</li>
+          </ul>
+        </section>
+        <section id="experience" className="portfolio-section">
+          <h3>Experience</h3>
+          <div className="experience-item">
+            <h4>Web Development Intern @ Vanillakart</h4>
+            <span>April 2024 – February 2025</span>
+            <ul>
+              <li>Developed and maintained responsive web pages</li>
+              <li>Collaborated with the team to implement new features and improve UI/UX</li>
+              <li>Gained practical experience in front-end technologies</li>
+            </ul>
+          </div>
+          <div className="experience-item">
+            <h4>International Services Director @ Rotaract Club</h4>
+            <span>July 2024 – Present</span>
+            <ul>
+              <li>Organized and led international collaborations and events</li>
+              <li>Managed public relations and coordinated with global partners</li>
+              <li>Enhanced teamwork, leadership, and communication skills</li>
+            </ul>
+          </div>
+        </section>
+        <section id="projects" className="portfolio-section">
+          <h3>Projects</h3>
+          <div className="project-item">
+            <h4>DeepFake Detective – AI-based Fake Media Detection Tool</h4>
+            <ul>
+              <li>Developed a Flask-based web platform to detect deepfake images and videos using computer vision and AI</li>
+              <li>Integrated MesoNet (TensorFlow/Keras) for deepfake detection with OpenCV for frame-wise analysis</li>
+              <li>Enabled real-time results with confidence scores and metadata extraction via exifread</li>
+              <li>Designed a responsive frontend with HTML, CSS (Flexbox, Grid), and ES6+ JavaScript</li>
+              <li>Ensured privacy with auto-deletion of files and no data retention</li>
+              <li>Supported drag-and-drop UI for images/videos (JPG, PNG, MP4, AVI up to 50MB)</li>
+            </ul>
+            <div className="project-links">
+              <a href="https://github.com/tejaspavanb/DeepFake" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+            </div>
+          </div>
+          <div className="project-item">
+            <h4>AI-powered Gmail Meeting Notifier</h4>
+            <ul>
+              <li>Developed a smart desktop tool that scans Gmail for meeting details and sends real-time alerts</li>
+              <li>Used Python, Gmail API, and Hugging Face Transformers with Torch for offline NER</li>
+              <li>Detected meeting time, date, title, and links using AI + regex with timezone support</li>
+              <li>Integrated sender filters, keyword triggers, and cross-platform notifications</li>
+              <li>Managed environment using venv; used npm for frontend support</li>
+            </ul>
+            <div className="project-links">
+              <a href="https://github.com/Parvv04/gmail-meeting-alarm" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+            </div>
+          </div>
+          <div className="project-item">
+            <h4>JavaScript Calculator</h4>
+            <ul>
+              <li>Built a basic calculator without using eval()</li>
+              <li>Implemented clean and modular JavaScript logic</li>
+            </ul>
+            <div className="project-links">
+              <a href="https://parvv04.github.io/Calculator/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </div>
+          <div className="project-item">
+            <h4>Etch-a-Sketch Drawing App</h4>
+            <ul>
+              <li>Created an interactive drawing board using HTML, CSS, and JS</li>
+              <li>Learned DOM manipulation and grid layouts</li>
+            </ul>
+            <div className="project-links">
+              <a href="https://parvv04.github.io/Etch-a-Sketch/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </div>
+        </section>
+        <section id="education" className="portfolio-section">
+          <h3>Education</h3>
+          <p><strong>Bachelor of Engineering in Computer Science</strong><br />
+          Rajarajeswari College of Engineering, Bangalore<br />
+          Expected Graduation: 2027<br />
+          SGPA: 1st Sem – 8.5 | 2nd Sem – 8.85 | 3rd Sem – 9.1
+          </p>
+        </section>
+        <section id="certifications" className="portfolio-section">
+          <h3>Certifications</h3>
+          <ul>
+            <li>Introduction to Artificial Intelligence (LinkedIn) – May 2024</li>
+            <li>Ethics in the Age of Generative AI (LinkedIn) – May 2024</li>
+            <li>What is Generative AI? (LinkedIn) – May 2024</li>
+            <li>Streamlining Your Work with Microsoft Copilot (LinkedIn) – May 2024</li>
+            <li>Elements of AI (MinnaLearn) – June 2024</li>
+          </ul>
+        </section>
+        <section id="contact" className="portfolio-section">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:parvathi.pratap.h@gmail.com">parvathi.pratap.h@gmail.com</a></p>
+        </section>
+      </main>
+    </div>
+  )
+}
+
+export default App
