@@ -1,4 +1,4 @@
-This is a modern, aesthetic portfolio website built with only HTML, CSS, and JavaScript. No frameworks or build tools are required. The site includes the following sections:
+This is my portfolio website built with only HTML, CSS, and JavaScript. The site includes the following sections:
 
 - **About**: Introduction and background
 - **Skills**: Key technical and soft skills
@@ -25,10 +25,3 @@ No installation or build steps are needed. You can deploy this site to GitHub Pa
 - `script.js` — (Optional) Add interactivity here
 
 ---
-
-## Live Demo
-You can host this site using GitHub Pages or any static hosting provider.
-
----
-
-*This project was originally scaffolded with React/Vite, but is now a pure HTML/CSS/JS portfolio for maximum simplicity and portability.*
