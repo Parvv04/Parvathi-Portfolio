@@ -1,44 +1,9 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* Modern, aesthetic portfolio CSS for Parvathi Pratap H */
+body {
+  margin: 0;
+  background: #18181b;
+  color: #f3f4f6;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .portfolio-root {
@@ -46,10 +11,8 @@
   margin: 0 auto;
   padding: 2.5rem 1.5rem;
   background: #18181b;
-  color: #f3f4f6;
   border-radius: 18px;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
-  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .portfolio-header {
@@ -74,6 +37,12 @@
   font-weight: 400;
   color: #a5b4fc;
   margin-top: 0.5rem;
+}
+
+.portfolio-contact {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #a1a1aa;
 }
 
 .portfolio-section {
@@ -145,6 +114,20 @@
   color: #a1a1aa;
   margin-bottom: 0.5rem;
   display: block;
+}
+
+.project-links {
+  margin-top: 0.5rem;
+}
+
+.project-links a {
+  color: #818cf8;
+  text-decoration: underline;
+  margin-right: 1.2rem;
+}
+
+.project-links a:hover {
+  color: #a5b4fc;
 }
 
 a {
