@@ -1,5 +1,3 @@
-# Parvathi-Portfolio
-
 This is a modern, aesthetic portfolio website built with only HTML, CSS, and JavaScript. No frameworks or build tools are required. The site includes the following sections:
 
 - **About**: Introduction and background
